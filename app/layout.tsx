@@ -11,7 +11,6 @@ export const metadata: Metadata = {
     title: "Pankaj Fabricators | Custom Metal Fabrication",
     description:
       "Premium custom metal fabrication in Jaipur, India. Transformer tanks, panels & industrial solutions since 1978.",
-    images: ["https://lovable.dev/opengraph-image-p98pqg.png"],
   },
 };
 

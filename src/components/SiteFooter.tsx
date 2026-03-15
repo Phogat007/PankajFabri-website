@@ -69,8 +69,19 @@ const SiteFooter = () => (
         </div>
       </div>
 
-      <div className="border-t border-foreground/5 mt-12 pt-6 text-center text-muted-foreground/50 text-xs">
-        © 2026 Pankaj Fabricators. All rights reserved. Jaipur, India.
+      <div className="border-t border-foreground/5 mt-12 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-muted-foreground/50 text-xs">
+        <span>© 2026 Pankaj Fabricators. All rights reserved. Jaipur, India.</span>
+        <span>
+          Website crafted with ❤️ by{" "}
+          <a
+            href="https://flux8labs.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-orange transition-colors"
+          >
+            Flux8labs
+          </a>
+        </span>
       </div>
     </div>
   </footer>
